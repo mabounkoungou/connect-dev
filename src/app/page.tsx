@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,7 +24,7 @@ export default function LandingPage() {
               src="/icon.png"
               width="200"
               height="200"
-              alt="dev finder logo"
+              alt="ConnectDev logo"
             />
 
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">

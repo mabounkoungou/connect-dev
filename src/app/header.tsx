@@ -1,4 +1,3 @@
-
 "use client";
 
 import { ModeToggle } from "@/components/mode-toggle";
@@ -109,7 +108,7 @@ export function Header() {
             height="60"
             alt="the application icon of a magnifying glass"
           />
-          Connect-Dev
+          DevFinder
         </Link>
 
         <nav className="flex gap-8">

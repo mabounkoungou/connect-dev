@@ -1,4 +1,3 @@
-
 "use client";
 
 import { z } from "zod";
@@ -60,7 +59,7 @@ export function EditRoomForm({ room }: { room: Room }) {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input {...field} placeholder="Dev Finder Is Awesome" />
+                <Input {...field} placeholder="ConnectDev Is Awesome" />
               </FormControl>
               <FormDescription>This is your public room name.</FormDescription>
               <FormMessage />

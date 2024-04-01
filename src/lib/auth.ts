@@ -1,4 +1,3 @@
-
 import { db } from "@/db";
 import { DrizzleAdapter } from "@auth/drizzle-adapter";
 import { AuthOptions, DefaultSession, getServerSession } from "next-auth";

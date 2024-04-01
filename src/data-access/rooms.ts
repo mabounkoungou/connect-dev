@@ -1,4 +1,3 @@
-
 import { db } from "@/db";
 import { Room, room } from "@/db/schema";
 import { eq } from "drizzle-orm";
