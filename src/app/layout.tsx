@@ -4,14 +4,13 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./provider";
 import { Header } from "./header";
-//import { Header } from "./header";
-//import NextTopLoader from "nextjs-toploader";
-//import { Toaster } from "@/components/ui/toaster";
+import NextTopLoader from "nextjs-toploader";
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "connect-dev",
+  title: "Connect-Dev",
   description:
     "An application to help pair programming with developers online",
 };
@@ -25,10 +24,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <Providers>
-          <Header/>
-          {/*<Toaster />
+          <Toaster />
           <NextTopLoader />
-  <Header /> */}{children}
+          <Header />
+          <div className="container mx-auto">{children}</div>
         </Providers>
       </body>
     </html>
