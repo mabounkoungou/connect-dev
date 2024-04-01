@@ -109,7 +109,7 @@ export function Header() {
             height="60"
             alt="the application icon of a magnifying glass"
           />
-          DevFinder
+          Connect-Dev
         </Link>
 
         <nav className="flex gap-8">

@@ -3,7 +3,7 @@ import { TagsList } from "@/components/tags-list";
 import { getRoom } from "@/data-access/rooms";
 import { GithubIcon } from "lucide-react";
 import Link from "next/link";
-import { DevFinderVideo } from "./video-player";
+import { Connect-DevVideo } from "./video-player";
 import { splitTags } from "@/lib/utils";
 import { unstable_noStore } from "next/cache";
 
@@ -21,7 +21,7 @@ export default async function RoomPage(props: { params: { roomId: string } }) {
     <div className="grid grid-cols-4 min-h-screen">
       <div className="col-span-3 p-4 pr-2">
         <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-4 min-h-screen">
-          <DevFinderVideo room={room} />
+          <Connect-DevVideo room={room} />
         </div>
       </div>
 
