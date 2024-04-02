@@ -96,19 +96,21 @@ export function Header() {
   const isLoggedIn = !!session.data;
 
   return (
-    <header className="bg-gray-100 py-2 dark:bg-gray-900 z-10 relative">
-      <div className="container mx-auto flex justify-between items-center">
+  <header className="bg-gray-100 py-2 dark:bg-gray-900 z-10 relative sticky top-0">
+  <div className="container mx-auto flex justify-between items-center">
         <Link
           href="/"
           className="flex gap-2 items-center text-xl hover:underline"
         >
           <Image
             src="/icon.png"
-            width="60"
-            height="60"
+            width="30"
+            height="30"
             alt="the application icon of a magnifying glass"
+            style={{ borderRadius: '50%' }}
+
           />
-          DevFinder
+          ConnectDev
         </Link>
 
         <nav className="flex gap-8">

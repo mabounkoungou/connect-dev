@@ -22,13 +22,14 @@ export default function LandingPage() {
             <Image
               className="inline-block"
               src="/icon.png"
-              width="200"
-              height="200"
+              width="100"
+              height="100"
               alt="ConnectDev logo"
-            />
+              style={{ borderRadius: '50%' }}
+              />
 
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-              Find other awesome devs to pair with online
+              Find other awesome Developers to pair with online
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-200">
               This platform is for sharing your screen and working with other
