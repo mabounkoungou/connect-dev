@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ConnectDev",
   description:
-    "An application to help pair programming with random devs online",
+    "An application to help pair programming with random Developers online",
 };
 
 export default function RootLayout({

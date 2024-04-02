@@ -76,7 +76,7 @@ export function EditRoomForm({ room }: { room: Room }) {
               <FormControl>
                 <Input
                   {...field}
-                  placeholder="Im working on a side project, come join me"
+                  placeholder="I m working on a this awesome project, join me"
                 />
               </FormControl>
               <FormDescription>
@@ -96,7 +96,7 @@ export function EditRoomForm({ room }: { room: Room }) {
               <FormControl>
                 <Input
                   {...field}
-                  placeholder="https://github.com/webdevcody/dev-finder"
+                  placeholder="https://github.com/mabounkoungou/connect-dev"
                 />
               </FormControl>
               <FormDescription>
